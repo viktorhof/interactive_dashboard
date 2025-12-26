@@ -1,0 +1,6 @@
+metric,value
+silhouette_score,0.4901200260620353
+davies_bouldin_index,0.7588883293590789
+calinski_harabasz_index,33.19414446519538
+optimal_k,4.0
+pca_variance_explained,0.7133112418656127

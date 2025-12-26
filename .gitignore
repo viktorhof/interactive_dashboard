@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files we don't need in deployment
+*.pkl
+data/raw/
+*.xlsx
+
+# Visualizations (not needed for dashboard)
+regression_visualizations/
+clustering_visualizations/
+*.png
+model_visualization.py
+integrated_dashboard.png
+
+# Model scripts (not needed for dashboard)
+regression_model.py
+clustering_model.py
+
+# Documentation (optional - include if you want)
+# MODEL_STAGE_DOCUMENTATION.md
+# RUN_MODELS.md
+# DASHBOARD_GUIDE.md
+# guidelines.md
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Evaluation notebook
+evaluation.ipynb
